@@ -7,8 +7,13 @@
   Find a way to add 1% to all currency conversions (think about the DRY principle)
 */
 
-function convertToUSD(price) {}
-function convertToBRL(price) {}
+convertToUSD = (price) => {
+  return `$${(price * 1.4 * 1.01).toFixed(2)}`;
+};
+
+convertToBRL = (price) => {
+  return `R$${(price * 6.35 * 1.01).toFixed(2)}`;
+};
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
