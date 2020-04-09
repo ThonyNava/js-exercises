@@ -1,7 +1,8 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
-  return wordtrim();
+  var wordtrim = word.trim();
+  return wordtrim;
 }
 
 var result = trimWord("  CodeYourFuture ");
