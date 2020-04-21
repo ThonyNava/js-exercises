@@ -6,8 +6,9 @@
 
 function remove(arr, index) {
   // complete this statement
-  arr.splice(index, 1);
-  return arr;
+  var ArrNew = arr.slice();
+  ArrNew.splice(index, 1);
+  return ArrNew;
 }
 
 /* 
